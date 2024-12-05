@@ -1,35 +1,11 @@
-# pymongo-api
+# mongo-sharding
+MongoDB с 2-мя шардами (/mongo-sharding)
 
-## Как запустить
+# mongo-sharding-repl
+MongoDB с 2-мя шардами и по 3 реплики на каждый шард (/mongo-sharding-repl)
 
-Запускаем mongodb и приложение
+# sharding-repl-cache
+MongoDB с 2-мя шардами и по 3 реплики на каждый шард, а также Redis (/sharding-repl-cache)
 
-```shell
-docker compose up -d
-```
-
-Заполняем mongodb данными
-
-```shell
-./scripts/mongo-init.sh
-```
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+# draw.io схема
+https://drive.google.com/file/d/1g8KXCYX-QseFV7RGPRtX5-g1DNyda_Zi/view?usp=sharing
